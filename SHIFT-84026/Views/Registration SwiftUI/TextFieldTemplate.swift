@@ -34,7 +34,7 @@ struct TextFieldTemplate: View {
                 }
                 
             }
-            .textContentType(isSecure ? .password : .givenName)
+//            .textContentType(isSecure ? .password : .givenName)
             .disableAutocorrection(isSecure ? true : false)
             .textInputAutocapitalization(isSecure ? .never : .words)
             .keyboardType(.default)
